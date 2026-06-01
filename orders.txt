@@ -1,0 +1,12 @@
+OrderId:101
+ProductName:Laptop
+Quantity:2
+Price:45000.0
+TotalAmount:90000.0
+----------------
+OrderId:101
+FoodName:Pizza
+Quantity:2
+Price:300.0
+TotalAmount:600.0
+----------------
