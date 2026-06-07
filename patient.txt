@@ -1,0 +1,4 @@
+PatientId:101
+PatientName:Rahul
+Disease:Fever
+Bill:2500.0
