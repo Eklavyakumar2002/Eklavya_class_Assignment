@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-07T00:35:08 IST" name="Capstone Suite" finished-at="2026-06-07T00:37:28 IST" duration-ms="140125">
+    <groups>
+    </groups>
+    <test started-at="2026-06-07T00:35:08 IST" name="Form Test" finished-at="2026-06-07T00:35:50 IST" duration-ms="42526">
+      <class name="testcases.FormTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:08 IST" name="setUp" finished-at="2026-06-07T00:35:14 IST" duration-ms="6367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckboxDays()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:14 IST" name="testCheckboxDays" finished-at="2026-06-07T00:35:14 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckboxDays -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:14 IST" name="tearDown" finished-at="2026-06-07T00:35:15 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:15 IST" name="setUp" finished-at="2026-06-07T00:35:20 IST" duration-ms="5489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testColorDropdown()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:20 IST" name="testColorDropdown" finished-at="2026-06-07T00:35:20 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testColorDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:20 IST" name="tearDown" finished-at="2026-06-07T00:35:20 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:20 IST" name="setUp" finished-at="2026-06-07T00:35:25 IST" duration-ms="4218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCountryDropdown()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:25 IST" name="testCountryDropdown" finished-at="2026-06-07T00:35:25 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCountryDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:25 IST" name="tearDown" finished-at="2026-06-07T00:35:25 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:25 IST" name="setUp" finished-at="2026-06-07T00:35:30 IST" duration-ms="4683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDatePickers()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:30 IST" name="testDatePickers" finished-at="2026-06-07T00:35:30 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDatePickers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:30 IST" name="tearDown" finished-at="2026-06-07T00:35:30 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:30 IST" name="setUp" finished-at="2026-06-07T00:35:34 IST" duration-ms="3657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFullFormFill()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:34 IST" name="testFullFormFill" finished-at="2026-06-07T00:35:35 IST" duration-ms="984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullFormFill -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:35 IST" name="tearDown" finished-at="2026-06-07T00:35:35 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:35 IST" name="setUp" finished-at="2026-06-07T00:35:38 IST" duration-ms="3516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGenderRadioFemale()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:38 IST" name="testGenderRadioFemale" finished-at="2026-06-07T00:35:38 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenderRadioFemale -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:38 IST" name="tearDown" finished-at="2026-06-07T00:35:39 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:39 IST" name="setUp" finished-at="2026-06-07T00:35:43 IST" duration-ms="4688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGenderRadioMale()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:43 IST" name="testGenderRadioMale" finished-at="2026-06-07T00:35:43 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenderRadioMale -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:43 IST" name="tearDown" finished-at="2026-06-07T00:35:43 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:43 IST" name="setUp" finished-at="2026-06-07T00:35:50 IST" duration-ms="6109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTextFields()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:50 IST" name="testTextFields" finished-at="2026-06-07T00:35:50 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTextFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FormTest@76505305]" started-at="2026-06-07T00:35:50 IST" name="tearDown" finished-at="2026-06-07T00:35:50 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.FormTest -->
+    </test> <!-- Form Test -->
+    <test started-at="2026-06-07T00:35:50 IST" name="Alert Test" finished-at="2026-06-07T00:36:20 IST" duration-ms="29810">
+      <class name="testcases.AlertTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AlertTest@2a5c8d3f]" started-at="2026-06-07T00:35:50 IST" name="setUp" finished-at="2026-06-07T00:35:57 IST" duration-ms="6147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testConfirmAlertAccept()[pri:0, instance:testcases.AlertTest@2a5c8d3f]" started-at="2026-06-07T00:35:57 IST" name="testConfirmAlertAccept" finished-at="2026-06-07T00:35:57 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConfirmAlertAccept -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AlertTest@2a5c8d3f]" started-at="2026-06-07T00:35:57 IST" name="tearDown" finished-at="2026-06-07T00:35:57 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AlertTest@2a5c8d3f]" started-at="2026-06-07T00:35:57 IST" name="setUp" finished-at="2026-06-07T00:36:03 IST" duration-ms="5973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testConfirmAlertDismiss()[pri:0, instance:testcases.AlertTest@2a5c8d3f]" started-at="2026-06-07T00:36:03 IST" name="testConfirmAlertDismiss" finished-at="2026-06-07T00:36:03 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConfirmAlertDismiss -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AlertTest@2a5c8d3f]" started-at="2026-06-07T00:36:03 IST" name="tearDown" finished-at="2026-06-07T00:36:03 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AlertTest@2a5c8d3f]" started-at="2026-06-07T00:36:03 IST" name="setUp" finished-at="2026-06-07T00:36:09 IST" duration-ms="5659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNewTab()[pri:0, instance:testcases.AlertTest@2a5c8d3f]" started-at="2026-06-07T00:36:09 IST" name="testNewTab" finished-at="2026-06-07T00:36:10 IST" duration-ms="1688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewTab -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AlertTest@2a5c8d3f]" started-at="2026-06-07T00:36:10 IST" name="tearDown" finished-at="2026-06-07T00:36:11 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AlertTest@2a5c8d3f]" started-at="2026-06-07T00:36:11 IST" name="setUp" finished-at="2026-06-07T00:36:14 IST" duration-ms="3845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPromptAlert()[pri:0, instance:testcases.AlertTest@2a5c8d3f]" started-at="2026-06-07T00:36:14 IST" name="testPromptAlert" finished-at="2026-06-07T00:36:14 IST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPromptAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AlertTest@2a5c8d3f]" started-at="2026-06-07T00:36:14 IST" name="tearDown" finished-at="2026-06-07T00:36:15 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AlertTest@2a5c8d3f]" started-at="2026-06-07T00:36:15 IST" name="setUp" finished-at="2026-06-07T00:36:20 IST" duration-ms="5392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSimpleAlert()[pri:0, instance:testcases.AlertTest@2a5c8d3f]" started-at="2026-06-07T00:36:20 IST" name="testSimpleAlert" finished-at="2026-06-07T00:36:20 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimpleAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AlertTest@2a5c8d3f]" started-at="2026-06-07T00:36:20 IST" name="tearDown" finished-at="2026-06-07T00:36:20 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.AlertTest -->
+    </test> <!-- Alert Test -->
+    <test started-at="2026-06-07T00:36:20 IST" name="Mouse Action Test" finished-at="2026-06-07T00:36:37 IST" duration-ms="16722">
+      <class name="testcases.MouseActionTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.MouseActionTest@710f4dc7]" started-at="2026-06-07T00:36:20 IST" name="setUp" finished-at="2026-06-07T00:36:23 IST" duration-ms="3096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDoubleClick()[pri:0, instance:testcases.MouseActionTest@710f4dc7]" started-at="2026-06-07T00:36:23 IST" name="testDoubleClick" finished-at="2026-06-07T00:36:24 IST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDoubleClick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.MouseActionTest@710f4dc7]" started-at="2026-06-07T00:36:24 IST" name="tearDown" finished-at="2026-06-07T00:36:24 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.MouseActionTest@710f4dc7]" started-at="2026-06-07T00:36:24 IST" name="setUp" finished-at="2026-06-07T00:36:30 IST" duration-ms="5312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDragAndDrop()[pri:0, instance:testcases.MouseActionTest@710f4dc7]" started-at="2026-06-07T00:36:30 IST" name="testDragAndDrop" finished-at="2026-06-07T00:36:31 IST" duration-ms="1292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDragAndDrop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.MouseActionTest@710f4dc7]" started-at="2026-06-07T00:36:31 IST" name="tearDown" finished-at="2026-06-07T00:36:31 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.MouseActionTest@710f4dc7]" started-at="2026-06-07T00:36:31 IST" name="setUp" finished-at="2026-06-07T00:36:36 IST" duration-ms="4726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMouseHover()[pri:0, instance:testcases.MouseActionTest@710f4dc7]" started-at="2026-06-07T00:36:36 IST" name="testMouseHover" finished-at="2026-06-07T00:36:37 IST" duration-ms="1147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMouseHover -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.MouseActionTest@710f4dc7]" started-at="2026-06-07T00:36:37 IST" name="tearDown" finished-at="2026-06-07T00:36:37 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.MouseActionTest -->
+    </test> <!-- Mouse Action Test -->
+    <test started-at="2026-06-07T00:36:37 IST" name="Slider Test" finished-at="2026-06-07T00:37:05 IST" duration-ms="27676">
+      <class name="testcases.SliderTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.SliderTest@2362f559]" started-at="2026-06-07T00:36:37 IST" name="setUp" finished-at="2026-06-07T00:36:42 IST" duration-ms="5238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMoveSlider()[pri:0, instance:testcases.SliderTest@2362f559]" started-at="2026-06-07T00:36:42 IST" name="testMoveSlider" finished-at="2026-06-07T00:36:53 IST" duration-ms="10296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMoveSlider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SliderTest@2362f559]" started-at="2026-06-07T00:36:53 IST" name="tearDown" finished-at="2026-06-07T00:36:53 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.SliderTest@2362f559]" started-at="2026-06-07T00:36:53 IST" name="setUp" finished-at="2026-06-07T00:36:58 IST" duration-ms="5520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPriceText()[pri:0, instance:testcases.SliderTest@2362f559]" started-at="2026-06-07T00:36:58 IST" name="testPriceText" finished-at="2026-06-07T00:36:58 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPriceText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SliderTest@2362f559]" started-at="2026-06-07T00:36:58 IST" name="tearDown" finished-at="2026-06-07T00:36:58 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.SliderTest@2362f559]" started-at="2026-06-07T00:36:58 IST" name="setUp" finished-at="2026-06-07T00:37:04 IST" duration-ms="6024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSliderDefaultValue()[pri:0, instance:testcases.SliderTest@2362f559]" started-at="2026-06-07T00:37:05 IST" name="testSliderDefaultValue" finished-at="2026-06-07T00:37:05 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSliderDefaultValue -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SliderTest@2362f559]" started-at="2026-06-07T00:37:05 IST" name="tearDown" finished-at="2026-06-07T00:37:05 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.SliderTest -->
+    </test> <!-- Slider Test -->
+    <test started-at="2026-06-07T00:37:05 IST" name="Upload Test" finished-at="2026-06-07T00:37:28 IST" duration-ms="23011">
+      <class name="testcases.UploadTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.UploadTest@5e5d171f]" started-at="2026-06-07T00:37:05 IST" name="setUp" finished-at="2026-06-07T00:37:10 IST" duration-ms="5677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMultiInputVisible()[pri:0, instance:testcases.UploadTest@5e5d171f]" started-at="2026-06-07T00:37:10 IST" name="testMultiInputVisible" finished-at="2026-06-07T00:37:10 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiInputVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.UploadTest@5e5d171f]" started-at="2026-06-07T00:37:10 IST" name="tearDown" finished-at="2026-06-07T00:37:11 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.UploadTest@5e5d171f]" started-at="2026-06-07T00:37:11 IST" name="setUp" finished-at="2026-06-07T00:37:15 IST" duration-ms="4629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSingleInputVisible()[pri:0, instance:testcases.UploadTest@5e5d171f]" started-at="2026-06-07T00:37:15 IST" name="testSingleInputVisible" finished-at="2026-06-07T00:37:15 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSingleInputVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.UploadTest@5e5d171f]" started-at="2026-06-07T00:37:15 IST" name="tearDown" finished-at="2026-06-07T00:37:15 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.UploadTest@5e5d171f]" started-at="2026-06-07T00:37:15 IST" name="setUp" finished-at="2026-06-07T00:37:20 IST" duration-ms="4928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUploadMultipleFiles()[pri:0, instance:testcases.UploadTest@5e5d171f]" started-at="2026-06-07T00:37:20 IST" name="testUploadMultipleFiles" finished-at="2026-06-07T00:37:22 IST" duration-ms="1613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUploadMultipleFiles -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.UploadTest@5e5d171f]" started-at="2026-06-07T00:37:22 IST" name="tearDown" finished-at="2026-06-07T00:37:22 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.UploadTest@5e5d171f]" started-at="2026-06-07T00:37:22 IST" name="setUp" finished-at="2026-06-07T00:37:26 IST" duration-ms="3820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUploadSingleFile()[pri:0, instance:testcases.UploadTest@5e5d171f]" started-at="2026-06-07T00:37:26 IST" name="testUploadSingleFile" finished-at="2026-06-07T00:37:28 IST" duration-ms="1615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUploadSingleFile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.UploadTest@5e5d171f]" started-at="2026-06-07T00:37:28 IST" name="tearDown" finished-at="2026-06-07T00:37:28 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.UploadTest -->
+    </test> <!-- Upload Test -->
+  </suite> <!-- Capstone Suite -->
+</testng-results>

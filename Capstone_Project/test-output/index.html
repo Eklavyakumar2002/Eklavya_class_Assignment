@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Capstone_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Capstone Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Capstone_Suite" class="navigator-link ">
+                    <span>C:\Users\rekha\eclipse-workspace\Capstone_Project\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Capstone_Suite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Capstone_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Capstone_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Capstone_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Capstone_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Capstone_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Capstone_Suite" class="hide-methods passed suite-Capstone_Suite"> (hide)</a> <!-- hide-methods passed suite-Capstone_Suite -->
+                      <a href="#" panel-name="suite-Capstone_Suite" class="show-methods passed suite-Capstone_Suite"> (show)</a> <!-- show-methods passed suite-Capstone_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Capstone_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.FormTest" class="method navigator-link" hash-for-method="testCheckboxDays">testCheckboxDays</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.FormTest" class="method navigator-link" hash-for-method="testColorDropdown">testColorDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.AlertTest" class="method navigator-link" hash-for-method="testConfirmAlertAccept">testConfirmAlertAccept</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.AlertTest" class="method navigator-link" hash-for-method="testConfirmAlertDismiss">testConfirmAlertDismiss</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.FormTest" class="method navigator-link" hash-for-method="testCountryDropdown">testCountryDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.FormTest" class="method navigator-link" hash-for-method="testDatePickers">testDatePickers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.MouseActionTest" class="method navigator-link" hash-for-method="testDoubleClick">testDoubleClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.MouseActionTest" class="method navigator-link" hash-for-method="testDragAndDrop">testDragAndDrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.FormTest" class="method navigator-link" hash-for-method="testFullFormFill">testFullFormFill</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.FormTest" class="method navigator-link" hash-for-method="testGenderRadioFemale">testGenderRadioFemale</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.FormTest" class="method navigator-link" hash-for-method="testGenderRadioMale">testGenderRadioMale</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.MouseActionTest" class="method navigator-link" hash-for-method="testMouseHover">testMouseHover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.SliderTest" class="method navigator-link" hash-for-method="testMoveSlider">testMoveSlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.UploadTest" class="method navigator-link" hash-for-method="testMultiInputVisible">testMultiInputVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.AlertTest" class="method navigator-link" hash-for-method="testNewTab">testNewTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.SliderTest" class="method navigator-link" hash-for-method="testPriceText">testPriceText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.AlertTest" class="method navigator-link" hash-for-method="testPromptAlert">testPromptAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.AlertTest" class="method navigator-link" hash-for-method="testSimpleAlert">testSimpleAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.UploadTest" class="method navigator-link" hash-for-method="testSingleInputVisible">testSingleInputVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.SliderTest" class="method navigator-link" hash-for-method="testSliderDefaultValue">testSliderDefaultValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.FormTest" class="method navigator-link" hash-for-method="testTextFields">testTextFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.UploadTest" class="method navigator-link" hash-for-method="testUploadMultipleFiles">testUploadMultipleFiles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Suite" title="testcases.UploadTest" class="method navigator-link" hash-for-method="testUploadSingleFile">testUploadSingleFile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Capstone_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Capstone_Suite" class="panel Capstone_Suite">
+          <div class="suite-Capstone_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.SliderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMoveSlider">
+                  </a> <!-- testMoveSlider -->
+                  <span class="method-name">testMoveSlider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPriceText">
+                  </a> <!-- testPriceText -->
+                  <span class="method-name">testPriceText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSliderDefaultValue">
+                  </a> <!-- testSliderDefaultValue -->
+                  <span class="method-name">testSliderDefaultValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Suite-class-passed -->
+          <div class="suite-Capstone_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.MouseActionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDoubleClick">
+                  </a> <!-- testDoubleClick -->
+                  <span class="method-name">testDoubleClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDragAndDrop">
+                  </a> <!-- testDragAndDrop -->
+                  <span class="method-name">testDragAndDrop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMouseHover">
+                  </a> <!-- testMouseHover -->
+                  <span class="method-name">testMouseHover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Suite-class-passed -->
+          <div class="suite-Capstone_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.AlertTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConfirmAlertAccept">
+                  </a> <!-- testConfirmAlertAccept -->
+                  <span class="method-name">testConfirmAlertAccept</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConfirmAlertDismiss">
+                  </a> <!-- testConfirmAlertDismiss -->
+                  <span class="method-name">testConfirmAlertDismiss</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNewTab">
+                  </a> <!-- testNewTab -->
+                  <span class="method-name">testNewTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPromptAlert">
+                  </a> <!-- testPromptAlert -->
+                  <span class="method-name">testPromptAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimpleAlert">
+                  </a> <!-- testSimpleAlert -->
+                  <span class="method-name">testSimpleAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Suite-class-passed -->
+          <div class="suite-Capstone_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.FormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckboxDays">
+                  </a> <!-- testCheckboxDays -->
+                  <span class="method-name">testCheckboxDays</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testColorDropdown">
+                  </a> <!-- testColorDropdown -->
+                  <span class="method-name">testColorDropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCountryDropdown">
+                  </a> <!-- testCountryDropdown -->
+                  <span class="method-name">testCountryDropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDatePickers">
+                  </a> <!-- testDatePickers -->
+                  <span class="method-name">testDatePickers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFullFormFill">
+                  </a> <!-- testFullFormFill -->
+                  <span class="method-name">testFullFormFill</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGenderRadioFemale">
+                  </a> <!-- testGenderRadioFemale -->
+                  <span class="method-name">testGenderRadioFemale</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGenderRadioMale">
+                  </a> <!-- testGenderRadioMale -->
+                  <span class="method-name">testGenderRadioMale</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTextFields">
+                  </a> <!-- testTextFields -->
+                  <span class="method-name">testTextFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Suite-class-passed -->
+          <div class="suite-Capstone_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.UploadTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultiInputVisible">
+                  </a> <!-- testMultiInputVisible -->
+                  <span class="method-name">testMultiInputVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSingleInputVisible">
+                  </a> <!-- testSingleInputVisible -->
+                  <span class="method-name">testSingleInputVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUploadMultipleFiles">
+                  </a> <!-- testUploadMultipleFiles -->
+                  <span class="method-name">testUploadMultipleFiles</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUploadSingleFile">
+                  </a> <!-- testUploadSingleFile -->
+                  <span class="method-name">testUploadSingleFile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Suite-class-passed -->
+        </div> <!-- panel Capstone_Suite -->
+        <div panel-name="test-xml-Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rekha\eclipse-workspace\Capstone_Project\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Capstone Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Form Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.FormTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Form Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Alert Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.AlertTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Alert Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Mouse Action Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.MouseActionTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Mouse Action Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Slider Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.SliderTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Slider Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Upload Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.UploadTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Upload Test --&gt;
+&lt;/suite&gt; &lt;!-- Capstone Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Capstone Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Form Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Alert Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Mouse Action Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Slider Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Upload Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Capstone Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Capstone Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Capstone_Suite');
+function tableData_Capstone_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testMoveSlider')
+data.setCell(0, 2, 'testcases.SliderTest')
+data.setCell(0, 3, 10296);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testNewTab')
+data.setCell(1, 2, 'testcases.AlertTest')
+data.setCell(1, 3, 1688);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testUploadSingleFile')
+data.setCell(2, 2, 'testcases.UploadTest')
+data.setCell(2, 3, 1615);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testUploadMultipleFiles')
+data.setCell(3, 2, 'testcases.UploadTest')
+data.setCell(3, 3, 1613);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testDragAndDrop')
+data.setCell(4, 2, 'testcases.MouseActionTest')
+data.setCell(4, 3, 1292);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testMouseHover')
+data.setCell(5, 2, 'testcases.MouseActionTest')
+data.setCell(5, 3, 1147);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testFullFormFill')
+data.setCell(6, 2, 'testcases.FormTest')
+data.setCell(6, 3, 984);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testDoubleClick')
+data.setCell(7, 2, 'testcases.MouseActionTest')
+data.setCell(7, 3, 693);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testCheckboxDays')
+data.setCell(8, 2, 'testcases.FormTest')
+data.setCell(8, 3, 460);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testTextFields')
+data.setCell(9, 2, 'testcases.FormTest')
+data.setCell(9, 3, 388);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testCountryDropdown')
+data.setCell(10, 2, 'testcases.FormTest')
+data.setCell(10, 3, 187);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testColorDropdown')
+data.setCell(11, 2, 'testcases.FormTest')
+data.setCell(11, 3, 117);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testGenderRadioFemale')
+data.setCell(12, 2, 'testcases.FormTest')
+data.setCell(12, 3, 104);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testDatePickers')
+data.setCell(13, 2, 'testcases.FormTest')
+data.setCell(13, 3, 100);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testGenderRadioMale')
+data.setCell(14, 2, 'testcases.FormTest')
+data.setCell(14, 3, 97);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testConfirmAlertAccept')
+data.setCell(15, 2, 'testcases.AlertTest')
+data.setCell(15, 3, 88);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testPriceText')
+data.setCell(16, 2, 'testcases.SliderTest')
+data.setCell(16, 3, 78);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSimpleAlert')
+data.setCell(17, 2, 'testcases.AlertTest')
+data.setCell(17, 3, 75);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testPromptAlert')
+data.setCell(18, 2, 'testcases.AlertTest')
+data.setCell(18, 3, 72);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testConfirmAlertDismiss')
+data.setCell(19, 2, 'testcases.AlertTest')
+data.setCell(19, 3, 71);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testSliderDefaultValue')
+data.setCell(20, 2, 'testcases.SliderTest')
+data.setCell(20, 3, 21);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testSingleInputVisible')
+data.setCell(21, 2, 'testcases.UploadTest')
+data.setCell(21, 3, 20);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testMultiInputVisible')
+data.setCell(22, 2, 'testcases.UploadTest')
+data.setCell(22, 3, 20);
+window.suiteTableData['Capstone_Suite']= { tableData: data, tableDiv: 'times-div-Capstone_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <div id="times-div-Capstone_Suite">
+              </div> <!-- times-div-Capstone_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Capstone Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.FormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckboxDays</span>
+                <span class="method-start">6367 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6830 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7014 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testColorDropdown</span>
+                <span class="method-start">12503 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12622 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">12776 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCountryDropdown</span>
+                <span class="method-start">16994 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17184 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17334 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDatePickers</span>
+                <span class="method-start">22017 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22117 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">22289 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFullFormFill</span>
+                <span class="method-start">25946 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26932 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27086 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGenderRadioFemale</span>
+                <span class="method-start">30604 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30708 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">30861 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGenderRadioMale</span>
+                <span class="method-start">35549 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35646 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">35803 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTextFields</span>
+                <span class="method-start">41912 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42300 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.AlertTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">42777 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testConfirmAlertAccept</span>
+                <span class="method-start">48924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49012 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">49158 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testConfirmAlertDismiss</span>
+                <span class="method-start">55131 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">55204 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">55357 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNewTab</span>
+                <span class="method-start">61016 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62710 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">62874 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPromptAlert</span>
+                <span class="method-start">66719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">66792 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">66956 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimpleAlert</span>
+                <span class="method-start">72348 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72423 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.MouseActionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">72614 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDoubleClick</span>
+                <span class="method-start">75710 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">76417 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">76561 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDragAndDrop</span>
+                <span class="method-start">81873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">83167 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">83308 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMouseHover</span>
+                <span class="method-start">88034 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89181 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.SliderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">89368 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMoveSlider</span>
+                <span class="method-start">94606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">104904 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">105071 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPriceText</span>
+                <span class="method-start">110592 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">110670 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">110818 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSliderDefaultValue</span>
+                <span class="method-start">116843 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">116864 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.UploadTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">117076 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMultiInputVisible</span>
+                <span class="method-start">122753 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">122773 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">122930 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSingleInputVisible</span>
+                <span class="method-start">127559 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">127579 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">127744 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUploadMultipleFiles</span>
+                <span class="method-start">132672 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">134285 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">134441 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUploadSingleFile</span>
+                <span class="method-start">138261 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">139877 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
